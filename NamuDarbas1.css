@@ -1,0 +1,16 @@
+.table-one, th, td {
+        border: 1px solid black;
+        width: auto;
+      }
+      th, td {
+        text-align: center;
+        padding:3px;
+      }
+      th, td {
+    background-color: #FFFFFF;
+    color: Black;
+}
+table.center {
+    margin-left:auto;
+    margin-right:auto;
+  }

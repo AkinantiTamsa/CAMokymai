@@ -1,0 +1,16 @@
+.table-one, th, td {
+        border: 1px solid black;
+        width: auto;
+      }
+      th, td {
+        text-align: center;
+        padding:6px;
+      }
+      th, td {
+    background-color: #FFFFFF;
+    color: Black;
+}
+body{
+  background-image: url("media/background/decorative.jpg");
+  background-size: 300px auto;
+}
