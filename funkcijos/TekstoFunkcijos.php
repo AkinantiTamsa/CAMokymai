@@ -12,18 +12,18 @@ function mazosios($string) {
     return $string . "<br>";
 }
 function palendra($string){
-    $string="ąčęėįšųūž";
     if($string===strrev($string)){
         $string = strtoupper($string);
     }
     elseif($string<>strrev($string)){
         $string = strtolower($string);
     }
-    else $string = "Beda";
+    else $string = "Bėda";
     return $string;
 }
 function tekstasatbulai($eilute)
 {
+    echo "Simbolių skaičius - ";
     echo strlen($eilute), "<br>";
     $simboliusk = strlen($eilute);
     for ($simbolis = $simboliusk; $simbolis >= 0; $simbolis--) {
@@ -32,9 +32,3 @@ function tekstasatbulai($eilute)
     }
     echo "<br>";
 }
-/**
- * Created by PhpStorm.
- * User: Auris
- * Date: 2018.03.07
- * Time: 11:07
- */
